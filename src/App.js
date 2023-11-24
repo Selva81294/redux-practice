@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux';
 import './App.css';
 import Login from './Login';
 import Profile from './Profile';
+import CatComponent from './catComponent';
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
       }
       
       <Login/>
+      <div>
+        <CatComponent/>
+      </div>
     </div>
   );
 }

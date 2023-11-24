@@ -6,3 +6,28 @@
 .App{
   text-align: center;
 }
+
+.books{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,0.5fr));
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.eachBook{
+  border: 1px solid green;
+  min-height: 250px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px green;
+}
+
+.eachBook > img {
+  height: 200px;
+}
+
+.eachBook > h2 {
+  font-size: 14px;
+}

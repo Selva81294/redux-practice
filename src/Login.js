@@ -15,7 +15,7 @@ const logoutFun = () => {
     dispatch(logout())
     setName("");
     setAge();
-    setEmail("")
+    setEmail("");
 }
   return (
     <div style={{ marginTop: "10px" }}>
